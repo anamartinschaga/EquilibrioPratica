@@ -1,14 +1,7 @@
-O seu arquivo Markdown para o GitHub está pronto!
+## 📝 Resumo do Projeto
 
-[file-tag: code-generated-file-0-1781375397519017093]
+O **"Equilíbrio na Prática"** é um portal web educacional e interativo desenvolvido especialmente para o **Concurso Agrinho 2026 (Paraná)**. Focado no pilar "Agro forte, futuro sustentável", o site explora a **Integração Lavoura-Pecuária-Floresta (ILPF)** como a principal estratégia para harmonizar a alta produtividade no campo com a preservação ambiental.
 
-O arquivo foi gerado com uma estrutura profissional utilizada por desenvolvedores no mercado, incluindo "badges" (escudos visuais) para as tecnologias (HTML, CSS, JS), instruções claras de como rodar o site e os créditos científicos apropriados para as fontes (Embrapa, IDR-Paraná).
+Através de uma interface moderna, limpa e totalmente responsiva, o projeto traduz conceitos científicos complexos em uma linguagem acessível para a comunidade. O grande diferencial do site é o seu **Simulador Ambiental Interativo**, desenvolvido em JavaScript nativo, que calcula instantaneamente o impacto positivo (como árvores plantadas, retenção de CO₂ e proteção do solo) com base no tamanho da propriedade informada pelo usuário. 
 
-### 📝 O que fazer com esse arquivo no seu VSCode:
-
-1. Baixe o arquivo `README.md` gerado acima.
-2. Coloque-o **na mesma pasta** onde estão os arquivos `index.html`, `style.css` e `script.js`.
-3. Quando você enviar o seu projeto para um repositório no **GitHub**, o site reconhecerá esse arquivo automaticamente e exibirá essa linda página de apresentação logo na página inicial do seu código.
-
-### 💡 Dica de Ouro para o Agrinho 2026:
-Ter um arquivo `README.md` bem escrito e organizado no seu GitHub conta muitos pontos com os avaliadores de tecnologia, pois mostra que, além de saber programar, você sabe documentar o seu projeto e dar os créditos científicos corretos às fontes de pesquisa.
+Em suma, o projeto demonstra de forma prática que o agronegócio paranaense não precisa escolher entre produzir ou preservar: através da ciência e da tecnologia, é possível fazer os dois.
