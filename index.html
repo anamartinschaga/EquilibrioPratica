@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equilíbrio na Prática: ILPF no Paraná | Agrinho 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Equilíbrio na Prática</h1>
+            <p>Agrinho 2026: Lavoura, Pecuária e Floresta</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">O que é ILPF?</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#parana">ILPF no Paraná</a></li>
+                <li><a href="#calculadora">Simulador Verde</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Produzir e Preservar: O Futuro do Agro é Integrado</h2>
+            <p>Descubra como a união de grãos, carne, leite e florestas na mesma propriedade está revolucionando a
+                sustentabilidade e combatendo as mudanças climáticas.</p>
+            <a href="#sobre" class="btn-principal">Conhecer o Sistema</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="conteudo-secao">
+        <h2>Entendendo a Integração Lavoura-Pecuária-Floresta</h2>
+        <div class="grid-dois-lados">
+            <div class="texto">
+                <p>A <strong>Integração Lavoura-Pecuária-Floresta (ILPF)</strong> é uma estratégia de produção
+                    sustentável que integra atividades agrícolas, pecuárias e florestais em uma mesma área, de forma
+                    planejada.</p>
+                <p>Esse sistema otimiza o uso da terra, melhora a fertilidade do solo e cria um ambiente onde uma
+                    atividade ajuda a outra. Por exemplo: as árvores fornecem sombra para o gado, o gado fertiliza a
+                    terra com matéria orgânica, e a rotação com a lavoura renova as pastagens degradadas.</p>
+            </div>
+            <div class="destaque-card">
+                <h3>Os 4 Pilares da ILPF:</h3>
+                <ul>
+                    <li><strong>ILP:</strong> Lavoura e Pecuária (Grãos e carne/leite)</li>
+                    <li><strong>ILF:</strong> Lavoura e Floresta (Grãos e árvores)</li>
+                    <li><strong>IPF:</strong> Pecuária e Floresta (Pecuária e árvores)</li>
+                    <li><strong>ILPF:</strong> Sistema completo (Lavoura, Pecuária e Floresta juntos)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="conteudo-secao bg-claro">
+        <h2>Por que a ILPF é a Solução Perfeita?</h2>
+        <p class="subtitulo">A sinergia entre os três elementos traz vantagens reais para o bolso do produtor e para a
+            saúde do planeta.</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <h3>🌱 Solo Vivo e Protegido</h3>
+                <p>A rotação de culturas e o plantio direto mantêm o solo coberto o ano todo, evitando a erosão, retendo
+                    mais água e aumentando a biodiversidade de micro-organismos benéficos.</p>
+            </div>
+            <div class="card">
+                <h3>💨 Sequestro de Carbono</h3>
+                <p>As árvores plantadas no sistema absorvem os gases de efeito estufa emitidos pelos animais. Isso
+                    viabiliza a produção da famosa "Carne Carbono Neutro".</p>
+            </div>
+            <div class="card">
+                <h3>🐄 Bem-Estar Animal</h3>
+                <p>O sombreamento das árvores cria um microclima ameno para o gado, diminuindo o estresse térmico.
+                    Animais sem calor produzem mais leite e ganham peso mais rápido.</p>
+            </div>
+            <div class="card">
+                <h3>💰 Dinheiro o Ano Todo</h3>
+                <p>O agricultor não depende de apenas um produto. Ele vende os grãos na safra, o gado ao longo do ano e,
+                    a longo prazo, extrai o lucro da madeira ou do papel das árvores.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="parana" class="conteudo-secao">
+        <h2>O Pioneirismo do Paraná na Sustentabilidade</h2>
+        <p>Nosso estado é um gigante no agronegócio e está mostrando ao mundo que a produtividade anda de mãos dadas com
+            a preservação. Com o apoio do IDR-Paraná (antigo Emater) e da Embrapa, milhares de propriedades paranaenses
+            já utilizam sistemas integrados.</p>
+
+        <div class="dados-estatisticos">
+            <div class="dado-item">
+                <span class="numero" id="num-hectares">17+ Milhões</span>
+                <p>De hectares com ILPF no Brasil, com o Paraná sendo um dos estados líderes na adoção.</p>
+            </div>
+            <div class="dado-item">
+                <span class="numero">-20%</span>
+                <p>De estresse térmico para os animais protegidos pelo sombreamento das florestas plantadas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora" class="conteudo-secao bg-escuro">
+        <h2>Simulador de Impacto Ambiental</h2>
+        <p>Insira abaixo uma estimativa de área (em hectares) para ver o impacto positivo que a conversão para o sistema
+            ILPF traria para o meio ambiente.</p>
+
+        <div class="formulario-simulador">
+            <label for="hectares-input">Tamanho da propriedade (em hectares):</label>
+            <input type="number" id="hectares-input" placeholder="Ex: 50" min="1">
+            <button id="btn-calcular">Simular Impacto</button>
+        </div>
+
+        <div id="resultado-simulador" class="resultado-oculto">
+            <h3>Resultado da sua Simulação:</h3>
+            <p>🌳 <strong>Árvores plantadas:</strong> <span id="res-arvores">0</span> árvores inseridas no sistema.</p>
+            <p>🪱 <strong>Solo protegido:</strong> <span id="res-solo">0</span> toneladas de solo salvas de erosão por
+                ano.</p>
+            <p>💨 <strong>Carbono retido:</strong> Cobertura vegetal capaz de mitigar o equivalente a <span
+                    id="res-carbono">0</span> kg de CO₂ anualmente.</p>
+        </div>
+    </section>
+    <section id="fontes" class="conteudo-secao bg-claro">
+        <h2>Fontes e Referências</h2>
+        <p class="subtitulo">Este projeto foi baseado em dados científicos e relatórios das seguintes instituições:</p>
+        <ul style="list-style-position: inside; text-align: center; font-weight: 600;">
+            <li style="margin-bottom: 10px;"><a href="https://www.ilpf.org.br" target="_blank"
+                    style="color: #2d6a4f;">Rede ILPF / Embrapa</a></li>
+            <li style="margin-bottom: 10px;"><a href="https://www.idrparana.pr.gov.br" target="_blank"
+                    style="color: #2d6a4f;">IDR-Paraná</a></li>
+            <li style="margin-bottom: 10px;"><a href="https://www.sistemafaep.org.br" target="_blank"
+                    style="color: #2d6a4f;">Sistema FAEP/SENAR-PR</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2026 - Projeto Agrinho Paraná. Desenvolvido por Ana Caroline Martins Chaga.</p>
+        <p>Foco: Equilíbrio entre Produção e Meio Ambiente.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
